@@ -5,8 +5,10 @@ class UserManager {
   String name;
   UserManager({
     required this.name,
+
   });
   void changeUserName(String name) {
     this.name = name;
+  
   }
 }
